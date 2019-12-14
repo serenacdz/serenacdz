@@ -1,0 +1,66 @@
+body {
+	background: #a1c5b3;
+	color: #018383;
+	font-family: 'Courier Prime', monospace;
+}
+
+h1	{
+	color:#6c7b95;
+	font-family: 'Courier Prime', monospace;
+}
+
+h2 {
+	font-size: 20px;
+	color: #6c7b95;
+	font-family: 'Courier Prime', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #6c7b95;
+	font-family: 'Courier Prime', monospace;
+}
+
+.card-white {
+	background-color: white;
+    padding: 25px;
+    margin:50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.img-circle	{
+	border-radius: 50%;
+    width: 330px;
+}
+
+.container {
+
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.btn-blue {
+	background-color: #47686f;
+	display: inline-block;
+	padding: 15px 20px;
+	color: white;
+	border-radius: 5px;
+}
+
+.list-inline {
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	font-size: 50px;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 450px;
+	}
+}
